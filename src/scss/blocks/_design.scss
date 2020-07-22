@@ -1,0 +1,33 @@
+.design {
+  position: relative;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  display: flex;
+  overflow: hidden;
+
+  &__pic {
+    display: flex;
+    position: relative;
+    z-index: 5;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+
+  &__info {
+    position: relative;
+    z-index: 5;
+    width: 495px;
+  }
+
+  &__triangle {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 630px solid #fb8686;
+    border-right: 650px solid transparent;
+  }
+}
