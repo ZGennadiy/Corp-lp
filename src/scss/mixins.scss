@@ -1,0 +1,41 @@
+@mixin Exo-thin {
+  font-family: Exo;
+  font-weight: 100;
+  font-style: normal;
+}
+
+@mixin Exo {
+  font-family: Exo;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@mixin Exo-italic {
+  font-family: Exo;
+  font-weight: normal;
+  font-style: italic;
+}
+
+@mixin Exo-medium {
+  font-family: Exo;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@mixin Lato {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@mixin Arial {
+  font-family: 'Arial';
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin Arial-bold {
+  font-family: 'Arial';
+  font-weight: bold;
+  font-style: normal;
+}

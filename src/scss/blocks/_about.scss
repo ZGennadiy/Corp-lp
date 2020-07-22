@@ -1,0 +1,28 @@
+.about {
+  position: relative;
+  background-color: #ececec;
+  overflow: hidden;
+
+  &__info {
+    background-color: #fff;
+    padding-top: 190px;
+    padding-bottom: 165px;
+    max-width: 870px;
+
+    &-content {
+      position: relative;
+      z-index: 5;
+    }
+  }
+
+  &__triangle {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 578px solid #fb8686;
+    border-left: 678px solid transparent;
+  }
+}

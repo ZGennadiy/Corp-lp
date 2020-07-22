@@ -1,0 +1,53 @@
+@import '../mixins.scss';
+
+.h1 {
+  color: #282828;
+  @include Exo-thin;
+  font-size: 60px;
+  line-height: 75px;
+  text-align: center;
+  margin: 0;
+
+
+  & span {
+    display: block;
+  }
+}
+
+.h2 {
+  margin: 0;
+  color: #282828;
+  @include Exo-medium;
+  font-size: 40px;
+
+  &__dots {
+    color: #ff6d6d;
+  }
+
+  &~.p {
+    margin-top: 45px;
+  }
+}
+
+
+.label {
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: #ff6d6d;
+  font-family: Exo;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+
+}
+
+.p {
+  margin: 0;
+  @include Exo-medium;
+  color: rgba(40, 40, 40, 0.6);
+  font-size: 16px;
+
+  &+& {
+    margin-top: 40px;
+  }
+}
