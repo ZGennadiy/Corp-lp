@@ -1,0 +1,15 @@
+.interface {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 110px;
+  background-color: rgb(246, 245, 243);
+
+  &>.p {
+    max-width: 650px;
+  }
+
+  &__pic {
+    margin-top: 95px;
+  }
+}

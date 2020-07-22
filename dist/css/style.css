@@ -812,3 +812,26 @@ template {
   -webkit-filter: contrast(0);
           filter: contrast(0);
 }
+
+.interface {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 110px;
+  background-color: #f6f5f3;
+}
+
+.interface > .p {
+  max-width: 650px;
+}
+
+.interface__pic {
+  margin-top: 95px;
+}
