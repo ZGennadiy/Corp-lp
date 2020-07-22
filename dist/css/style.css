@@ -480,6 +480,10 @@ template {
   text-align: center;
 }
 
+.h2_white {
+  color: #fff;
+}
+
 .h3 {
   margin: 0;
   color: #4b4242;
@@ -834,4 +838,10 @@ template {
 
 .interface__pic {
   margin-top: 95px;
+}
+
+.contact {
+  padding-top: 100px;
+  padding-bottom: 85px;
+  background-color: #323969;
 }
