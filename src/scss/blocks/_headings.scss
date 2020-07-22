@@ -24,8 +24,19 @@
     color: #ff6d6d;
   }
 
-  &~.p {
-    margin-top: 45px;
+  &_center {
+    text-align: center;
+  }
+}
+
+.h3 {
+  margin: 0;
+  color: rgb(75, 66, 66);
+  @include Exo-medium;
+  font-size: 22px;
+
+  &_center {
+    text-align: center;
   }
 }
 
@@ -39,6 +50,9 @@
   font-weight: 500;
   text-transform: uppercase;
 
+  &_center {
+    text-align: center;
+  }
 }
 
 .p {
@@ -47,7 +61,19 @@
   color: rgba(40, 40, 40, 0.6);
   font-size: 16px;
 
+  &_center {
+    text-align: center;
+  }
+
   &+& {
     margin-top: 40px;
+  }
+
+  .h2~& {
+    margin-top: 45px;
+  }
+
+  .h3~& {
+    margin-top: 20px;
   }
 }
