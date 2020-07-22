@@ -724,3 +724,91 @@ template {
   border-bottom: 630px solid #fb8686;
   border-right: 650px solid transparent;
 }
+
+.company {
+  padding-top: 110px;
+  padding-bottom: 80px;
+  background: center/cover no-repeat url("../img/company-bg.jpg");
+}
+
+.company__team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.company__person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.company__person + .company__person {
+  margin-left: 65px;
+}
+
+.company__person-avatar {
+  width: 76px;
+  height: 76px;
+  border: 2px solid #1d1e24;
+  background-color: #4e4e5e;
+}
+
+.company__person-name {
+  color: white;
+  font-size: 22px;
+  font-family: Exo;
+  font-weight: 500;
+  font-style: normal;
+  margin-top: 26px;
+  margin-bottom: 12px;
+}
+
+.company__person-job {
+  margin-top: 0;
+  margin-bottom: 40px;
+  color: #ff6d6d;
+  font-family: Exo;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.company__person-about {
+  margin-top: 0;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Exo;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  width: 325px;
+}
+
+.company__partners {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.company__partner-logo {
+  -webkit-filter: contrast(0);
+          filter: contrast(0);
+}
