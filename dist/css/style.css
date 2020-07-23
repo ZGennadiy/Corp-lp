@@ -1180,3 +1180,34 @@ body {
   border-top: 335px solid #fb8686;
   border-left: 340px solid transparent;
 }
+
+.overlay {
+  z-index: 15;
+  position: fixed;
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.video {
+  width: 720px;
+  height: 480px;
+  position: relative;
+}
+
+.close {
+  color: #fff;
+  font-size: 36px;
+  position: absolute;
+  top: -27px;
+  right: -25px;
+  cursor: pointer;
+}
