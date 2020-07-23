@@ -5,6 +5,13 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Exo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+
 .container {
   padding-left: 150px;
   padding-right: 150px;
@@ -20,3 +27,4 @@
 @import 'blocks/interface';
 @import 'blocks/contact';
 @import 'blocks/form';
+@import 'blocks/footer';

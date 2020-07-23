@@ -1,6 +1,6 @@
 @import '../mixins.scss';
 
-.btn-try {
+.btn {
   width: 190px;
   height: 50px;
   border-radius: 3px;
@@ -19,13 +19,22 @@
   &:active {
     filter: brightness(100%);
   }
-}
 
-.btn_form {
-  width: 258px;
-  height: 50px;
-  box-shadow: 0 3px 3px rgba(14, 15, 15, 0.25);
-  border-radius: 3px;
-  border: 1px solid #ff6d6d;
-  margin-left: 35px;
+  &_form {
+    width: 258px;
+    height: 50px;
+    box-shadow: 0 3px 3px rgba(14, 15, 15, 0.25);
+    border-radius: 3px;
+    border: 1px solid #ff6d6d;
+    margin-left: 35px;
+  }
+
+  &_mail {
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 3px 3px rgba(14, 15, 15, 0.25);
+    border-radius: 3px;
+    border: 1px solid #ff6d6d;
+    background-color: #ff6d6d;
+  }
 }
